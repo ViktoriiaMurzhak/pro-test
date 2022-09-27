@@ -1,4 +1,4 @@
-import './css/style.css';
+import '../css/main.min.css';
 
 const cocktailsList = document.querySelector('.gallery__cards');
 console.log(cocktailsList);
@@ -38,10 +38,8 @@ function createCardMarkup(drinksArr) {
       <img src=${strDrinkThumb} class='gallery__card-img'>
       <div class='gallery__card_thumb'>
       <h3 class='gallery__card-name'>${strDrink}</h3>
-      <div class='gallery__btn-thumb'>
       <button class='gallery__btn-load-more'>Learn more</button>
        <button class='gallery__btn-add-to-fav'>Add to</button>
-       </div>
       </div>
       </li>`
     )
